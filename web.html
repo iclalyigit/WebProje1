@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Çok İzlenen Filmler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        h1 {
+            color: #fff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px auto;
+            padding: 10px;
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .movie {
+            margin-top: 20px;
+        }
+        .movie img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .movie p {
+            font-size: 16px;
+            margin: 10px auto;
+            width: 60%;
+            text-align: justify;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tarihte En Çok İzlenen Filmler</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#avatar">1. Avatar</a></li>
+            <li><a href="#endgame">2. Avengers: Endgame</a></li>
+            <li><a href="#titanic">3. Titanic</a></li>
+            <li>4. Star Wars: The Force Awakens</li>
+            <li>5. Avengers: Infinity War</li>
+            <li>6. Spider-Man: No Way Home</li>
+            <li>7. Jurassic World</li>
+            <li>8. The Lion King (2019)</li>
+            <li>9. The Avengers</li>
+            <li>10. Furious 7</li>
+        </ul>
+    </nav>
+    <section>
+        <article class="movie" id="avatar">
+            <h2>Avatar</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg" alt="Avatar">
+            <p>Modern sinema teknolojisinin sınırlarını zorlayan ve görsel efektleriyle çığır açan bir yapım.</p>
+            <table>
+                <tr><th>Yönetmen</th><th>Çıkış Tarihi</th><th>Konu</th></tr>
+                <tr><td>James Cameron</td><td>2009</td><td>İnsanların Pandora adlı gezegeni kolonileştirme çabası ve yerlileri ile yaşanan çatışmalar.</td></tr>
+            </table>
+        </article>
+        <article class="movie" id="endgame">
+            <h2>Avengers: Endgame</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg" alt="Avengers: Endgame">
+            <p>Marvel Sinematik Evreni'nin en büyük yapımlarından biri olarak tarihe geçti.</p>
+            <table>
+                <tr><th>Yönetmen</th><th>Çıkış Tarihi</th><th>Konu</th></tr>
+                <tr><td>Anthony & Joe Russo</td><td>2019</td><td>Thanos'un yarattığı yıkımı tersine çevirmek için kahramanların verdiği mücadele.</td></tr>
+            </table>
+        </article>
+        <article class="movie" id="titanic">
+            <h2>Titanic</h2>
+            <img src="https://static.wikia.nocookie.net/20thcenturystudios/images/2/2a/Titanikposter.jpg/revision/latest?cb=20220629113108&path-prefix=tr" alt="Titanic">
+            <p>Tüm zamanların en romantik ve dramatik filmlerinden biri olarak sinema tarihinde özel bir yere sahiptir.</p>
+            <table>
+                <tr><th>Yönetmen</th><th>Çıkış Tarihi</th><th>Konu</th></tr>
+                <tr><td>James Cameron</td><td>1997</td><td>Ünlü Titanic gemisinin batışı sırasında yaşanan epik aşk hikayesi.</td></tr>
+            </table>
+        </article>
+    </section>
+    <h2>Favori Filmin Hangisi?</h2>
+    <section id="anket">
+        <form>
+     
+          <ul>
+            <li><input type="radio" name="favGame" value="helix"> Avatar</li>
+            <li><input type="radio" name="favGame" value="crowd"> Avengers: Endgame</li>
+            <li><input type="radio" name="favGame" value="rise"> Titanic</li>
+          </ul>
+          <button type="submit">Oy Ver</button>
+        </form>
+      </section>
+    <footer>
+        <p>&copy; 2025 En Çok İzlenen Filmler</p>
+    </footer>
+</body>
+</html>
