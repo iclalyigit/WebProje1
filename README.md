@@ -26,4 +26,4 @@ Projenin en son sürümünü görmek ve düzenlemek için bu adımları takip ed
 Projenin dosyalarını bilgisayarınıza indirin:
 
 ```bash
-git clone https://github.com/kullanici-adi/en-cok-izlenen-filmler.git
+git clone https://github.com/iclalyigit/WebProje1.git
